@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "1F1D2B" }}>
+    <div style={{ backgroundColor: "#1F1D2B", color: "white" }}>
       <NavbarContainer />
       <Welcome />
       <Auctions />

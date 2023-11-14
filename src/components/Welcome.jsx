@@ -5,9 +5,9 @@ import { Button, ButtonGroup, Card, Col, Container, Image, Row, Stack } from 're
 const Welcome = () => {
   return (
     <Container className='py-5'>
-    <Row className='d-xs-flex flex-xs-row-reverse  '>
+    <Row className='d-flex justify-content-between  '>
       <Col xs={12} sm={6} md={6} lg={6} 
-            className='d-flex flex-column justify-content-center align-items-center'>
+            className='d-flex flex-column justify-content-center align-items-center ml-3'>
         <h1>Discover, collect,  and charity in extraordinary NFT marketplace</h1>
         <h4>In aenean posuere lorem risus nec. Tempor tincidunt aenean purus purus vestibulum nibh mi venenatis</h4>
         <Stack direction='horizental'>
@@ -17,23 +17,8 @@ const Welcome = () => {
       </Col>
       <Col xs={12} sm={6} md={6} lg={6}>
       <Card style={{ width: '22rem' }}>
-        <Card.Img variant="top" src="/img.png" width={"350px"} rounded />
-        <Card.Body>
-            <Row>
-                <Col>
-                    <Avatar  sx={{ width: 56, height: 56 }} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-
-                </Col>
-                <Col>
-                    <h5>Laura</h5>
-                    <p>0.21 Weth</p>
-                </Col>
-                <Col>
-                    <h5>We are here</h5>
-                    <h6>5</h6>
-                </Col>
-            </Row>
-        </Card.Body>
+        <Card.Img variant="top" src="/Group.png" width={"350px"} rounded />
+        
         </Card>
       </Col>
     </Row>

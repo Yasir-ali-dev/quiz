@@ -17,7 +17,7 @@ export const Discover = () => {
         <div className='d-flex justify-content-center align-items-center flex-wrap gap-3'>
         {
         arr.map((_,index)=>{
-            return( <Card key={index} style={{ width: '18rem' }}>
+            return( <Card key={index} style={{ width: '16rem' }}>
             <Card.Img variant="top" src={`${_}`} />
             <Card.Body>
             <div className='d-flex justify-content-between align-items-center'>

@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavbarContainer=()=> {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" style={{backgroundColor:"transparent",}} className="bg-body-tertiary bg-dark">
       <Container fluid>
         <Navbar.Brand href="#">FASTTECH</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
