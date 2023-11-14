@@ -1,10 +1,11 @@
+import { Facebook, GitHub, Instagram } from '@mui/icons-material'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <Container className='d-flex justify-content-center '>
-        <Row>
+    <Container className='p-3'>
+    <Row>
       <Col>
         <h3>Etiam et id tincidunt faucibus mollis a sociis pretium fermentum quis magna faucibus lacus.</h3>
       </Col>  
@@ -35,13 +36,19 @@ const Footer = () => {
         <p>Learn More</p>
       </div>
         </Col>
-        </Row>
+    </Row>
+
         <hr/>
+
         <Row>
             <Col>
-
+                <GitHub/>
+                <Instagram/>
+                <Facebook/>
             </Col>
-            <Col></Col>
+            <Col>
+            <h4>Copyright @2023 EAD</h4>
+            </Col>
         </Row>
     </Container>
   )

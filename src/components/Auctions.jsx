@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Card, Container } from 'react-bootstrap'
 
-const arr = [1,2,4];
+const arr = ["/img.png","/img2.png","/img3.png"];
 const Auctions = () => {
   return (
     <Container className='p-4'>
@@ -13,7 +13,7 @@ const Auctions = () => {
         {
         arr.map((_,index)=>{
             return( <Card key={index} style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="/img.png" />
+            <Card.Img variant="top" src={`${_}`} />
             <Card.Body>
             <div className='d-flex justify-content-between align-items-center'>
                 <Card.Text>

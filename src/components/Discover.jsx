@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Card, Container } from 'react-bootstrap'
 
-const arr = [1,2,4,32,34,2,1,2];
+const arr = ["/d1.png","/d2.png","/d3.png","/d4.png","/d5.png","/d6.png","/d7.png","/d1.png"];
 export const Discover = () => {
   return (
     <Container className='p-4'>
@@ -18,7 +18,7 @@ export const Discover = () => {
         {
         arr.map((_,index)=>{
             return( <Card key={index} style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="/img.png" />
+            <Card.Img variant="top" src={`${_}`} />
             <Card.Body>
             <div className='d-flex justify-content-between align-items-center'>
                 <Card.Text>
